@@ -1,0 +1,61 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+
+.header-container {
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  border: 1px solid black;
+  text-align: center;
+  width: 400px;
+  margin: 20px auto;
+  background: white;
+  padding: 10px 0 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  margin: 5px;
+}
+
+.sub-header {
+  font-size: 13px;
+}
+
+.container {
+  display: flex;
+}
+
+.container > * {
+  padding: 200px 10px 10px;
+}
+
+.left {
+  background-color: #f0f0f0;
+  width: 30%;
+  flex-shrink: 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.skills {
+  font-style: italic;
+}
+
+.skills span {
+  font-style: normal;
+  display: block;
+  padding-left: 20px;
+}
