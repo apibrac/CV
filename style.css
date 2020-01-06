@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 11px;
+  font-size: 12px;
+  margin: 0;
 }
 
 .header-container {
@@ -9,20 +10,33 @@ body {
 }
 
 .header {
-  border: 1px solid black;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 0;
+  display: flex;
+  background-color: #009fb7;
+  color: white;
+}
+
+.header-left {
+  width: 30%;
+  flex-shrink: 0;
+  padding: 10px 20px;
   text-align: center;
-  width: 400px;
-  margin: 20px auto;
-  background: white;
-  padding: 10px 0 20px;
+}
+
+.header-content {
+  padding: 0 20px 10px;
+  text-align: left;
 }
 
 h1 {
+  font-size: 2.2em;
   text-transform: uppercase;
 }
 
 p {
-  margin: 5px;
+  margin: 5px 0;
 }
 
 .sub-header {
@@ -34,7 +48,7 @@ p {
 }
 
 .container > * {
-  padding: 200px 10px 10px;
+  padding: 180px 20px 20px;
 }
 
 .left {
@@ -58,4 +72,66 @@ h3 {
   font-style: normal;
   display: block;
   padding-left: 20px;
+}
+
+.info .material-icons {
+  font-size: 9px;
+  margin-right: 5px;
+}
+
+h4 span:last-child {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.experiences .name {
+  color: #c21616;
+}
+
+.right h4 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 9px;
+  font-style: italic;
+  text-align: right;
+  position: absolute;
+  width: 40px;
+  margin-top: 2px;
+}
+
+.right p {
+  margin-left: 50px;
+}
+
+.me {
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+h3 i {
+  color: #009fb7;
+  position: absolute;
+  left: -35px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.right h3 i {
+  padding: 10px;
+  background: #e7fbfe;
+  border-radius: 100%;
+  left: -55px;
+  top: -10px;
+}
+
+.right h3 {
+  margin-left: 50px;
 }
