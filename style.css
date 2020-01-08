@@ -21,13 +21,16 @@ body {
 .header-left {
   width: 30%;
   flex-shrink: 0;
-  padding: 10px 20px;
+  padding: 0 20px;
   text-align: center;
 }
 
 .header-content {
   padding: 0 20px 10px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
@@ -48,7 +51,7 @@ p {
 }
 
 .container > * {
-  padding: 180px 20px 20px;
+  padding: 190px 20px 20px;
 }
 
 .left {
@@ -106,7 +109,7 @@ h4 span:last-child {
 }
 
 .me {
-  width: 100px;
+  width: 120px;
   border-radius: 100%;
   border: 2px solid white;
 }
@@ -118,7 +121,7 @@ h3 i {
 }
 
 h3 {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 30px;
   position: relative;
   margin-left: 30px;
