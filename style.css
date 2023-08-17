@@ -1,7 +1,12 @@
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   margin: 0;
+}
+
+body {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
 }
 
 .header-container {
@@ -34,7 +39,7 @@ body {
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 3em;
   text-transform: uppercase;
 }
 
@@ -50,7 +55,7 @@ p {
   display: flex;
 }
 
-.container > * {
+.container>* {
   padding: 190px 20px 20px;
 }
 
@@ -88,7 +93,7 @@ h4 span:last-child {
 }
 
 .experiences .name {
-  color: #c21616;
+  font-weight: bold;
 }
 
 .right h4 {
@@ -137,4 +142,8 @@ h3 {
 
 .right h3 {
   margin-left: 50px;
+}
+
+.experiences p {
+  font-size: 10px;
 }
